@@ -168,7 +168,7 @@ img {
 
 .hero-item {
   width: calc((100% - 48px)/3);
-  background: #FFFFFF;
+
 
   border: 1px solid #E7E9FC;
 }
@@ -177,6 +177,7 @@ img {
   padding-top: 32px;
   padding-bottom: 32px;
   margin-left: 16px;
+  background: #FFFFFF;
 }
 
 .hero-title {

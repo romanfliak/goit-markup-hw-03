@@ -283,12 +283,13 @@ img {
 .team-item {
   width: calc((100% - 72px) / 4);
   width: 264px;
-  background: #FFFFFF;
+
 }
 
 .container-team {
   padding-top: 32px;
   padding-bottom: 32px;
+  background: #FFFFFF;
 }
 
 .team-title-bottom {
