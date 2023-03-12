@@ -26,7 +26,7 @@ img {
 }
 
 .container {
-  width: 1128px;
+  width: 1158px;
   margin-left: 15px;
   margin-right: 15px;
   margin: 0 auto;
@@ -88,7 +88,7 @@ img {
   color: #4D5AE5;
 }
 
-.menu-link {
+.header-link {
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -97,8 +97,8 @@ img {
   color: #2E2F42;
 }
 
-.menu-link:hover,
-.menu-link:focus {
+.header-link:hover,
+.header-link:focus {
   color: var(--hover-color);
 }
 
@@ -117,13 +117,18 @@ img {
 }
 
 /* ========HERO======== */
+.hero {
+  padding-top: 96px;
+  padding-bottom: 120px;
+}
+
 .hero-list-btn {
   display: flex;
   justify-content: center;
   gap: 24px;
-  padding-top: 96px;
   padding-bottom: 72px;
 }
+
 
 
 .modal-btn {
@@ -157,7 +162,6 @@ img {
 .hero-list {
   display: flex;
   flex-wrap: wrap;
-  padding-bottom: 120px;
   column-gap: 24px;
   row-gap: 48px;
 }
@@ -167,12 +171,16 @@ img {
   background: #FFFFFF;
 
   border: 1px solid #E7E9FC;
+}
 
+.container-hero {
+  padding-top: 32px;
+  padding-bottom: 32px;
+  margin-left: 16px;
 }
 
 .hero-title {
-  margin-top: 32px;
-  margin-left: 16px;
+  margin-bottom: 8px;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -182,9 +190,6 @@ img {
 }
 
 .hero-text {
-  margin-top: 8px;
-  margin-left: 16px;
-  margin-bottom: 32px;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -196,17 +201,16 @@ img {
 /* ========FOOTER======== */
 .footer {
   background-color: #2E2F42;
-  ;
+  padding-bottom: 100px;
+  padding-top: 100px;
+
 }
 
 .logo-footer {
-
-  padding-top: 100px;
   margin-bottom: 16px;
 }
 
 .footer-text {
-  padding-bottom: 100px;
   width: 262px;
   font-style: normal;
   font-weight: 400;
